@@ -1,80 +1,63 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
+.hidden{
+    display: none;
 }
-body{
-    font-family: Inter, sans-serif;
-}
-.menu-static{
-    width: 100%;
+nav{
+    text-align: right;
+    padding: 2rem 2rem;
+    background-color: #fef2f2;
     position: relative;
-    z-index: 10;
 }
-.nav{
-    width: 100%;
-    background: #fef2f2;
-    height: 6rem;
-    color: black;
-    position: fixed;
+nav button{
+    border: 0;
+    border-radius: 20%;
+    padding: 0.3rem;
+    background-color: transparent;
+    cursor: pointer;
 }
-.nav_container{
-    display: flex;
-    height: 100%;
-    width: 95%;
-    justify-content: flex-end;
-    align-items: center;
+nav button:hover{
+    background-color: #f6c1c1;
 }
-.nav_menu{
-    display: grid;
-    grid-auto-flow: column;
-    gap: 4em;
+nav ul{
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    background-color: #fef2f2;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: 0;
+    z-index: 999;
 }
-.nav_item{
+nav a{
     text-decoration: none;
     color: black;
 }
-
-.nav_label, .nav_input{
-    display: none;
-
+nav a:hover{
+    color: #286f6c;
 }
-@media (max-width: 950px){
-
-    .nav_label{
+nav li{
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+@media (min-width: 768px) {
+    #nav li{
+        display: inline-block;
+        margin: 0rem;
+    }
+    #nav{
         display: block;
-        cursor: pointer;
+        text-align: right;
+        position: static;
+        background-color: transparent;
     }
-    .nav_menu{
-        position: fixed;
-        top: 80px;
-        bottom: 0;
-        background-color: #fef2f2;
-        width: 100%;
-        left: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: column;
-        align-items: center;
-        clip-path: circle(0 at center);
-        transition: 1s;
+    nav button{
+        display: none;
     }
-    .nav_input:checked + .nav_menu{
-        clip-path: circle(100% at center);
+    nav a{
+        margin: 0rem 0.8rem;
     }
 }
-.caja-prueba{
-    padding: 4rem;
-    width: 100%;
-    height: 90rem;
-    position: relative;
-    background-color: aqua;
-    z-index: 8;
-}
-.hijo-prueba{
-    padding: 4rem;
-    width: 80%;
-    height: 15rem;
-    position: relative;
-    background-color: orange;
-    z-index: 9;
+@media (min-width: 992px) {
+    nav a{
+        margin: 0rem 2rem;
+    }
 }

@@ -16,25 +16,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
 </head>
 <body>
-    <div class="menu-static"> <!--AQUI EMPIEZA EL MENU-->
-        <div class="nav">
-            <div class="nav_container">
-              <label for="menu" class="nav_label">
-                <img src="Imagenes/menu 1.svg" alt="Icono del menu" class="nav_img" />
-              </label>
-              <input type="checkbox" id="menu" class="nav_input" />
-      
-              <div class="nav_menu">
-                <a href="#" class="nav_item">Home</a>
-                <a href="#" class="nav_item">Acerca de mí</a>
-                <a href="#" class="nav_item">Mis habilidades</a>
-                <a href="#" class="nav_item">Experiencia</a>
-                <a href="#" class="nav_item">Portafolio</a>
-                <a href="#" class="nav_item">Contacto</a>
-              </div>
-            </div>
-        </div>
-    </div> <!--AQUI TERMINA EL MENU-->
+    <nav> <!-- Aqui empieza nuestro menu -->
+        <button onclick="toggleMenu()"> 
+            <img src="Imagenes/menu 1.svg" alt="">
+        </button>
+        <ul class="hidden" id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Acerca de mí</a></li>
+            <li><a href="#">Mis habilidades</a></li>
+            <li><a href="#">Experiencia</a></li>
+            <li><a href="#">Mi portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>   <!-- Aqui termina nuestro menu -->
     <div class="caja-primera color-home"> <!--AQUI EMPIEZA EL HOME-->
         <div class="home">
             <div class="title-principal">
@@ -194,5 +188,6 @@
             <p>Hecho con ♥ por Yakelin</p>
         </div>
     </footer> <!--AQUI TERMINA EL FOOTER-->
+    <script src="js/script.js"></script>  
 </body>
 </html>
