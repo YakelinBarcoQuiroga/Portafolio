@@ -48,6 +48,12 @@
     justify-content: center;
     margin-bottom: 3rem;
 }
+.zoom{
+    transition: transform 0.5s;
+}
+.zoom:hover{
+    transform: scale(1.1);
+}
 .row {
     display: flex;
     flex-wrap: wrap;
