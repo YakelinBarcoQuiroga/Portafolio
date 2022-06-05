@@ -64,13 +64,7 @@
     text-align: center;
 }
 .title-contacto{
-    margin: 5rem auto;
-    width: 100%;
-}
-.title-contacto div{
-    margin: 0rem auto;
-    padding-left: 2rem;
-    width: 50rem;
+    margin-top: 5rem;
 }
 .color-verde-grosor{ 
     color: #286f6c;

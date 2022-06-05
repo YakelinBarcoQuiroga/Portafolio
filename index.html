@@ -17,23 +17,21 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <!-- Aqui empieza nuestro menu -->
-    <nav>
+    <nav> <!-- Aqui empieza nuestro menu -->
         <button onclick="toggleMenu()"> 
             <img src="Imagenes/menu 1.svg" alt="">
         </button>
         <ul class="hidden" id="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Acerca de mí</a></li>
+    <section class="container-all-home" id="link-home"> 
+            <li><a href="#link-home">Home</a></li>
+            <li><a href="#link-acerca-de-mí">Acerca de mí</a></li>
             <li><a href="#">Mis habilidades</a></li>
-            <li><a href="#">Experiencia</a></li>
-            <li><a href="#">Mi portafolio</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#link-mi-experiencia">Experiencia</a></li>
+            <li><a href="#link-portafolio">Mi portafolio</a></li>
+            <li><a href="#link-contacto">Contacto</a></li>
         </ul>
-    </nav>
-    <!-- Aqui termina nuestro menu -->
-    <!-- AQUI EMPIEZA EL HOME -->
-    <section class="container-all-home"> 
+    </nav> <!-- Aqui termina nuestro menu -->
+    <section class="container-all-home" id="link-home"> <!-- AQUI EMPIEZA EL HOME -->
         <div class="home">
             <img class="img-home-pc" src="imagenes/Imagen-home.png" alt="">
             <img class="img-home-tablet" src="imagenes/imagen-home-tablet2.png" alt="">
@@ -48,9 +46,8 @@
                 <a href="http://www.lostejos.com"><img src="imagenes/boton-de-twitter.png" alt="Link de Twitter" /></a>
             </div>
         </div>
-    </section>
-    <!-- AQUI TERMINA EL HOME -->
-    <div class="caja-primera"> <!--AQUI EMPIEZA ACERCA DE MÍ-->
+    </section> <!-- AQUI TERMINA EL HOME -->
+    <div class="caja-primera" id="link-acerca-de-mí"> <!--AQUI EMPIEZA ACERCA DE MÍ-->
         <div class="caja-segunda">
             <h2 class="estilos-h2">Acerca de mí</h2>
             <p class="estilo-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue neque, sagittis quis dolor ut, varius lacinia ante. Curabitur accumsanrisus quis iaculis laoreet. Nulla quis felis maximus, feugiat nisi a,pulvinar ex. Sed arcu ex, dapibus sed porttitor in, dapibus in, dapibus in mi. Fusce volutpat lacinia odio non malesuada.</p>
@@ -67,27 +64,27 @@
         </div>
         <div class="scrolling-wrapper-flexbox"> 
             <div class="card">
-                <h2>💡 Analista</h2>
+                <h3>💡 Analista</h3>
                 <div class="card-text">
                     <p>Se analizar problemas frecuentes en las empresas, brindando una pronta solución que involucre sistemas de información, que sean capaces de cubrir al 100% los requerimientos funcionales y no funcionales de la empresa.
                     </p>
                 </div>
             </div> 
             <div class="card">
-                <h2>📏 Editor de video</h2>
+                <h3>📏 Editor de video</h3>
                 <div class="card-text">
                     <p>Tengo habilidad para crear videos atractivos, de calidad y que cumplan con el diseño propuesto, he realizado varios proyectos institucionales y he manejado herramientas profesionales.</p>
                 </div>
             </div> 
             <div class="card">
-                <h2>📱 Desarrollo Web</h2>
+                <h3>📱 Desarrollo Web</h3>
                 <div class="card-text">
                     <p>Me encuentro en proceso de aprendizaje para lograr realizar desarrollo web, tanto en Frontend como en Backend. Me apasiona todo el mundo relacionado con las tecnologías, además de las computadoras.</p>
                 </div>
             </div> 
         </div>
     </div> <!--AQUI TERMINAN MIS HABILIDADES-->
-    <section class="mi-experiencia"> <!--AQUI EMPIEZA MI EXPERIENCIA-->
+    <section class="mi-experiencia" id="link-mi-experiencia"> <!--AQUI EMPIEZA MI EXPERIENCIA-->
         <div class="title-experiencia">
           <div>
              <h2 class="estilos-h2">Experiencia</h2>
@@ -137,7 +134,7 @@
             </div>
         </div>
     </section> <!--AQUI TERMINA MI EXPERIENCIA-->
-    <div class="cotainer-portafolio"> <!--AQUI EMPIEZA MI EXPERIENCIA-->
+    <div class="cotainer-portafolio" id="link-portafolio"> <!--AQUI EMPIEZA MI PORTAFOLIO-->
         <div class="caja-segunda-portafolio">
             <div class="row col-2 col-12">
                 <div class="imagen-portafolio1">
@@ -159,32 +156,34 @@
             </div>
         </div>
     </div> <!--AQUI TERMINA MI EXPERIENCIA-->
-    <!-- <div class="title-contacto">
-        <div>
-            <h2 class="estilos-h2">Contacto</h2>
-        </div>
-    </div> -->
-    <div class="container-contacto"><!--AQUI EMPIEZA MI CONTACTO-->
-        <div class="contacto"> 
-            <div class="vector-circle">
-                <img src="Imagenes/contacto-veector.png" alt="Circulo Gris">
+    <div> <!--AQUI EMPIEZA CONTACTO DE MÍ-->
+        <div class="caja-primera title-contacto" id="link-contacto"> 
+            <div class="caja-segunda">
+                <h2 class="estilos-h2">Contacto</h2>
             </div>
-            <div class="contacto-info">
-                <div class="contect-contacto">
-                    <div class="telefono">
-                        <img src="Imagenes/phone 3.svg" alt="Mi telefono">
-                        <p class="color-verde-grosor">Número de celular</p>
-                        <p class="color-gris-p">3125707625</p>
-                    </div>
-                    <div class="telefono">
-                        <img src="Imagenes/mail 3.svg" alt="Mi telefono">
-                        <p class="color-verde-grosor">Correo</p>
-                        <p class="color-gris-p">yakelin@gmail.com</p>
+        </div>
+        <div class="container-contacto">
+            <div class="contacto"> 
+                <div class="vector-circle">
+                    <img src="Imagenes/contacto-veector.png" alt="Circulo Gris">
+                </div>
+                <div class="contacto-info">
+                    <div class="contect-contacto">
+                        <div class="telefono">
+                            <img src="Imagenes/phone 3.svg" alt="Mi telefono">
+                            <p class="color-verde-grosor">Número de celular</p>
+                            <p class="color-gris-p">3125707625</p>
+                        </div>
+                        <div class="telefono">
+                            <img src="Imagenes/mail 3.svg" alt="Mi telefono">
+                            <p class="color-verde-grosor">Correo</p>
+                            <p class="color-gris-p">yakelin@gmail.com</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div> <!--AQUI TERMINA MI CONTACTO-->
+        </div> 
+    </div><!--AQUI TERMINA MI CONTACTO-->
     <footer class="footer"> <!--AQUI EMPIEZA EL FOOTER-->
         <div class="text-footer">
             <p>Hecho con ♥ por Yakelin</p>
