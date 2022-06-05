@@ -54,6 +54,9 @@
 .zoom:hover{
     transform: scale(1.1);
 }
+.espacio-2rem{
+    padding-top: 2rem;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
