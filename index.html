@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <nav> <!-- Aqui empieza nuestro menu -->
+    <!-- Aqui empieza nuestro menu -->
+    <nav>
         <button onclick="toggleMenu()"> 
             <img src="Imagenes/menu 1.svg" alt="">
         </button>
@@ -29,37 +30,26 @@
             <li><a href="#">Mi portafolio</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
-    </nav>   <!-- Aqui termina nuestro menu -->
-    <div class="caja-primera color-home"> <!--AQUI EMPIEZA EL HOME-->
+    </nav>
+    <!-- Aqui termina nuestro menu -->
+    <!-- AQUI EMPIEZA EL HOME -->
+    <section class="container-all-home"> 
         <div class="home">
-            <div class="title-principal">
-                <h1>Web Developer</h1>
+            <img class="img-home-pc" src="imagenes/Imagen-home.png" alt="">
+            <img class="img-home-tablet" src="imagenes/imagen-home-tablet2.png" alt="">
+            <img class="img-home-mobile" src="imagenes/imagen-home-mobile.png" alt="">
+            <div class="home-boton-linkedin">
+                <a href="http://www.lostejos.com"><img src="imagenes/boton-de-linkedin.png" alt="Link de Linkedin" /></a>
             </div>
-            <div class="imagen-principal">
-                <div class="vector1"></div>
-                <img src="Imagenes/image.png" alt="Imagen de una mujer">
+            <div class="home-boton-instagram">
+                <a href="http://www.lostejos.com"><img src="imagenes/boton-de-instragram.png" alt="Link de Instagram" /></a>
             </div>
-            <div class="container-redes">
-                <div class="redes">
-                    <div>
-                      <img
-                        src="Imagenes/cib_linkedin-in.svg"
-                        alt="Link de Linkedin"/>
-                    </div>
-                    <div>
-                      <img
-                        src="Imagenes/ant-design_instagram-filled.svg"
-                        alt="Link de Instagram"/>
-                    </div>
-                    <div>
-                      <img
-                        src="Imagenes/ant-design_twitter-outlined.svg"
-                        alt="Link de Twitter"/>
-                    </div>
-                </div>
+            <div class="home-boton-twitter">
+                <a href="http://www.lostejos.com"><img src="imagenes/boton-de-twitter.png" alt="Link de Twitter" /></a>
             </div>
         </div>
-    </div> <!--AQUI TERMINA EL HOME-->
+    </section>
+    <!-- AQUI TERMINA EL HOME -->
     <div class="caja-primera"> <!--AQUI EMPIEZA ACERCA DE MÍ-->
         <div class="caja-segunda">
             <h2 class="estilos-h2">Acerca de mí</h2>
@@ -169,11 +159,11 @@
             </div>
         </div>
     </div> <!--AQUI TERMINA MI EXPERIENCIA-->
-    <div class="title-contacto">
+    <!-- <div class="title-contacto">
         <div>
             <h2 class="estilos-h2">Contacto</h2>
         </div>
-    </div>
+    </div> -->
     <div class="container-contacto"><!--AQUI EMPIEZA MI CONTACTO-->
         <div class="contacto"> 
             <div class="vector-circle">
@@ -191,11 +181,6 @@
                         <p class="color-verde-grosor">Correo</p>
                         <p class="color-gris-p">yakelin@gmail.com</p>
                     </div>
-                    <!-- <div class="correo">
-                        <img src="Imagenes/mail 3.svg" alt="Mi correo">
-                        <p class="color-verde-grosor">Email</p>
-                        <p class="color-gris-p">yakelinbarcoquiroga@gmail.com</p>
-                    </div> -->
                 </div>
             </div>
         </div>
