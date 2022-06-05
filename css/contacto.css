@@ -1,37 +1,40 @@
 .container-contacto{
     position: relative;
+    margin-top: 6rem;
+    width: 100%;
+    max-width: 1400px;
 }
 .contacto{
+    margin: 0px auto;
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: 34.5rem;
+    width: 80%;
 }
 .vector-circle{
+    right: 77%;
+    top: -15%;
     position: absolute;
-    top: 87px;
-    left: -130px;
-    border-radius: 50%;
-    width: 28.64rem;
-    height: 28.64rem;
-    background-color: #f9f5f2;
+    width: 35%;
+}
+.vector-circle img{
+    position: absolute;
+    width: 100%;
 }
 .contacto-info{
     display: flex;
-    justify-content: start;
-    left:16rem;
-    bottom: 440px;
-    width: 50rem;
+    justify-content: center;
+    width: 90%;
 }
 .contect-contacto{
+    width: 80%;
     display: flex;
-    justify-content: start;
-    /* justify-content: space-evenly; */
+    justify-content: center;
 }
 .telefono{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    margin-left: 10%;
 }
 .telefono p{
     margin: 1rem;
@@ -40,20 +43,21 @@
 .telefono img{
     background-color: #F26440;
     border-radius: 50%;
-    padding: 35px;
-    width: 160px;
+    padding: 20%;
+    width: 70%;
 }
 .correo{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: cadetblue;
 }
 .correo img{
+    margin: 0rem auto;
     background-color: #F26440;
     border-radius: 50%;
-    padding: 35px;
-    width: 160px;
-    margin-left:3.3rem;
+    padding: 15%;
+    width: 40%;
 }
 .correo p{
     margin: 1rem;
@@ -77,12 +81,55 @@
 .color-gris-p{
     color: #adadad;
 }
-@media (max-width: 772px) {
+@media (max-width: 744px) {
+    .telefono img{
+        background-color: #f26440;
+        border-radius: 50%;
+        padding: 2rem;
+        width: 7.5rem;
+    }
+    .telefono{
+        position: relative;
+    }
+}
+@media  (max-width: 438px){
+    .telefono img{
+        margin: 0rem auto;
+        background-color: #f26440;
+        border-radius: 50%;
+        padding: 2rem;
+        width: 5rem;
+    }
+}
+@media  (max-width: 335px){
+    .telefono img{
+        margin: 0rem auto;
+        background-color: #f26440;
+        border-radius: 50%;
+        padding: 2rem;
+        width: 4rem;
+    }
+}
+@media (max-width: 911px) {
+    .vector-circle{
+        left: -9rem;
+        top: -3rem;
+        width: 20rem;
+    }
+}
+@media (max-width: 380px) {
+    .vector-circle{
+        left: -5rem;
+        top: -2rem;
+        width: 16rem;
+    }
+}
+@media (max-width: 911px) {
     
 }
-@media  (max-width: 600px){
+@media (max-width: 911px) {
     
 }
-@media  (max-width: 400px){
+@media (max-width: 911px) {
     
 }
