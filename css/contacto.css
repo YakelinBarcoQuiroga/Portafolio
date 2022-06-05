@@ -12,7 +12,7 @@
 }
 .vector-circle{
     right: 77%;
-    top: -15%;
+    top: -25%;
     position: absolute;
     width: 35%;
 }
@@ -64,14 +64,13 @@
     text-align: center;
 }
 .title-contacto{
-    margin: 5rem 0rem;
+    margin: 5rem auto;
+    width: 100%;
 }
-.contacto-h2{
+.title-contacto div{
+    margin: 0rem auto;
+    padding-left: 2rem;
     width: 50rem;
-    font-size: 2.9rem;
-    color: #286f6c;
-    padding-bottom: 3rem;
-    margin: 0;
 }
 .color-verde-grosor{ 
     color: #286f6c;
