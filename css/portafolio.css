@@ -1,0 +1,100 @@
+.cotainer-portafolio{
+    background: linear-gradient(#fff 5%, #206f6c 5%);
+    width: 100%;
+    max-width: 1700px;
+}
+.caja-segunda-portafolio{
+    display: flex;
+    width: 90%;
+    margin: 0rem auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2 {
+    width: 50%;
+}
+.text-portafolio{
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.text-portafolio h2{
+    color: white;
+}
+.text-portafolio p{
+    color: white;
+}
+.posicion-img2-portafolio{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+.imagen-portafolio2{
+    width: 76%;
+    position: relative;
+    top: 2rem;
+    background-color: white;
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+}
+.imagen-portafolio2 img{
+    width: 100%;
+}
+.imagen-portafolio2 h4{
+    padding-top: 1rem;
+}
+.imagen-portafolio1{
+    width: 72%;
+    height:43%;
+    top: 2rem;
+    background-color: white;
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 1rem;
+}
+.imagen-portafolio1 h4{
+    padding-top: 1rem;
+}
+.imagen-portafolio1 img{
+    width: 100%;
+}
+@media (max-width: 1200px) {
+    .imagen-portafolio1{
+        height:40%;
+    }
+}
+@media (max-width: 1100px) {
+    .imagen-portafolio1{
+        height:36%;
+    }
+}
+@media (max-width: 1000px) {
+    .imagen-portafolio1{
+        height:32%;
+    }
+}
+@media (max-width: 900px) {
+    .imagen-portafolio1{
+        height:30%;
+    }
+}
+@media (max-width: 800px) {
+    .imagen-portafolio1{
+        height:27%;
+    }
+}
+@media (max-width: 773px) {
+    .col-12{
+        width: 100%;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .caja-segunda-portafolio{
+        display: block;
+    }
+    .text-portafolio{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
