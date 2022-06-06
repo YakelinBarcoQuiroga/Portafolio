@@ -131,6 +131,11 @@
         margin-left: 2.5rem;
     }
 }
+@media (max-width: 370px) {
+    .title-habilidades h2{
+        margin-left: 1.5rem;
+    }
+}
 /* @media (max-width: 1600px) {
     .title-habilidades h2{
         width: 51rem;
