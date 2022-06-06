@@ -1,3 +1,13 @@
+.container-all-habilidades{
+    width: 100%;
+    margin: 0rem auto;
+    max-width: 1700px;
+    position: relative;
+}
+.posicion-title-habilidades{
+    position: absolute;
+    margin: 0rem auto;
+}
 .container-habilidades{
     width: 100%;
     max-width: 1700px;
@@ -30,8 +40,17 @@
     margin-right: 1rem;
 }
 .card-text{
-    margin: 0;
+    margin: 0; 
     padding: 0rem 1rem 1rem 1rem;
+}
+.title-habilidades{
+    position: absolute;
+    width: 50rem;
+    margin: 0rem auto;
+    top: 47.86%;
+    left: 23.7%;
+    z-index: 302;
+    background-color: aqua;
 }
 .title-habilidades h2{
     font-size: 2.9rem;
@@ -41,13 +60,6 @@
 }
 .title-habilidades span{
     color: white;
-}
-.title-habilidades{
-    position: absolute;
-    width: 400%;
-    top: -5%;
-    left: 39%;
-    z-index: 302;
 }
 .container-vectores{
     position: relative;
@@ -80,7 +92,7 @@
 }
 @media (max-width: 589px) {
     .title-habilidades{
-        width: 850%;
+        width: 100%;
     }
 }
 @media (max-width: 413px) {

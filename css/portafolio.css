@@ -1,6 +1,7 @@
 .cotainer-portafolio{
     background: linear-gradient(#fff 5%, #206f6c 5%);
     width: 100%;
+    margin: 0rem auto;
     max-width: 1700px;
 }
 .caja-segunda-portafolio{
