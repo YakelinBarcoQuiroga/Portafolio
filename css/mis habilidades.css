@@ -45,14 +45,15 @@
 }
 .title-habilidades{
     position: absolute;
-    width: 50rem;
+    width: 100%;
     margin: 0rem auto;
-    top: 47.86%;
-    left: 23.7%;
+    top: 8.86%;
     z-index: 302;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .title-habilidades h2{
+    width: 56rem;
+    margin: 0rem auto;
     font-size: 2.9rem;
     color: #286f6c;
     padding-bottom: 2rem;
@@ -75,62 +76,94 @@
 .v-n-h{
     width: 100%;
 }
-@media (max-width: 1078px) {
-    .title-habilidades{
-        left: 36%;
+@media (max-width: 1146px) {
+    .title-habilidades h2{
+        width: 54rem;
     }
 }
-@media (max-width: 930px) {
-    .title-habilidades{
-        left: 30%;
+@media (max-width: 1087px) {
+    .title-habilidades h2{
+        width: 52rem;
     }
 }
-@media (max-width: 839px) {
-    .title-habilidades{
-        left: 3.7rem;
+@media (max-width: 1019px) {
+    .title-habilidades h2{
+        width: 50rem;
     }
 }
-@media (max-width: 589px) {
+@media (max-width: 943px) {
+    .title-habilidades h2{
+        width: 48rem;
+    }
+}
+@media (max-width: 881px) {
+    .title-habilidades h2{
+        width: 46rem;
+    }
     .title-habilidades{
+        position: absolute;
         width: 100%;
+        margin: 0rem auto;
+        top: 3.86%;
+        z-index: 302;
     }
 }
-@media (max-width: 413px) {
-    .title-habilidades{
-        left: 3rem;
-    }
-}
-@media (max-width: 400px) {
-    .title-habilidades{
-        left: 2.9rem;
-    }
+@media (max-width: 819px) {
     .title-habilidades h2{
+        width: 30rem;
+        margin-left: 3.7rem;
+    }
+    .title-habilidades{
+        top: 2.86%;
+    }
+}
+@media (max-width: 541px) {
+    .title-habilidades h2{
+        font-size: 2.6rem;
+        width: 20rem;
+        margin-left: 3.7rem;
+    }
+}
+@media (max-width: 393px) {
+    .title-habilidades h2{
+        font-size: 2.6rem;
+        width: 20rem;
+        margin-left: 2.5rem;
+    }
+}
+/* @media (max-width: 1600px) {
+    .title-habilidades h2{
+        width: 51rem;
+    }
+}
+@media (max-width: 1500px) {
+    .title-habilidades{
+        width: 91rem;
+    }
+}
+@media (max-width: 1477px) {
+    .title-habilidades{
+        width: 88rem;
+    }
+}
+@media (max-width: 1437px) {
+    .title-habilidades{
+        width: 86rem;
+    }
+}
+@media (max-width: 1420px) {
+    .title-habilidades{
+        width: 84rem;
+    }
+} */
+
+    /* .title-habilidades h2{
         font-size: 2.5rem;
-    }
-}
-@media (max-width: 388px) {
-    .title-habilidades{
-        left: 2.1rem;
-    }
-}
-@media (max-width: 372px) {
-    .title-habilidades{
-        left: 2.4rem;
-    }
-    .title-habilidades h2{
+    } */
+    /* .title-habilidades h2{
         font-size: 2rem;
-    }
-}
-@media (max-width: 367px) {
-    .title-habilidades{
-        left: 2rem;
-    }
-}
-@media (max-width: 350px) {
-    .title-habilidades{
-        left: 1.7rem;
-    }
-}
+    } */
+
 @media (max-width: 844px) {
     .vector-naranja-habilidades{
         width: 13.3rem;
