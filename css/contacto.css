@@ -27,9 +27,9 @@
     width: 90%;
 }
 .contect-contacto{
-    width: 80%;
+    width: 70%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .telefono{
     display: flex;
@@ -51,7 +51,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: cadetblue;
 }
 .correo img{
     margin: 0rem auto;
@@ -116,4 +115,15 @@
         top: -2rem;
         width: 16rem;
     }
+    .contect-contacto{
+        width: 100%;
+        justify-content: start;
+    }
 }
+@media (max-width: 850px) {
+    .contect-contacto{
+        width: 80%;
+        justify-content: center;
+    }
+}
+

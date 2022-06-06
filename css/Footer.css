@@ -11,6 +11,11 @@
 .text-footer P{
     font-size: 1.3rem;
 }
+@media (min-width: 1467px){
+    .footer{
+        margin-top: 8rem;
+    }
+}
 @media (max-width: 1115px) {
     .footer{
         margin-top: 2rem;

@@ -143,32 +143,33 @@
 }
 @media (min-width: 1500px) {
     .title-habilidades{
-        width: 96rem;
+        width: 93rem;
     }
 }
 @media (min-width: 1520px) {
     .title-habilidades{
-        width: 97rem;
+        width: 90rem;
+        margin-left: 3.7rem;
     }
 }
 @media (min-width: 1540px) {
     .title-habilidades{
-        width: 99rem;
+        margin-left: 4rem;
     }
 }
 @media (min-width: 1560px) {
     .title-habilidades{
-        width: 101rem;
+        margin-left: 5rem;
     }
 }
 @media (min-width: 1580px) {
     .title-habilidades{
-        width: 102rem;
+        margin-left: 6rem;
     }
 }
 @media (min-width: 1595px) {
     .title-habilidades{
-        width: 103rem;
+        margin-left: 6.5rem;
     }
 }
 @media (max-width: 844px) {
