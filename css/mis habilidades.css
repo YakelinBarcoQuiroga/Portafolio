@@ -1,7 +1,7 @@
 .container-all-habilidades{
     width: 100%;
     margin: 0rem auto;
-    max-width: 1700px;
+    max-width: 1600px;
     position: relative;
 }
 .posicion-title-habilidades{
@@ -136,39 +136,41 @@
         margin-left: 1.5rem;
     }
 }
-/* @media (max-width: 1600px) {
+@media (min-width: 1400px) {
     .title-habilidades h2{
-        width: 51rem;
+        width: 54rem;
     }
 }
-@media (max-width: 1500px) {
+@media (min-width: 1500px) {
     .title-habilidades{
-        width: 91rem;
+        width: 96rem;
     }
 }
-@media (max-width: 1477px) {
+@media (min-width: 1520px) {
     .title-habilidades{
-        width: 88rem;
+        width: 97rem;
     }
 }
-@media (max-width: 1437px) {
+@media (min-width: 1540px) {
     .title-habilidades{
-        width: 86rem;
+        width: 99rem;
     }
 }
-@media (max-width: 1420px) {
+@media (min-width: 1560px) {
     .title-habilidades{
-        width: 84rem;
+        width: 101rem;
     }
-} */
-
-    /* .title-habilidades h2{
-        font-size: 2.5rem;
-    } */
-    /* .title-habilidades h2{
-        font-size: 2rem;
-    } */
-
+}
+@media (min-width: 1580px) {
+    .title-habilidades{
+        width: 102rem;
+    }
+}
+@media (min-width: 1595px) {
+    .title-habilidades{
+        width: 103rem;
+    }
+}
 @media (max-width: 844px) {
     .vector-naranja-habilidades{
         width: 13.3rem;
